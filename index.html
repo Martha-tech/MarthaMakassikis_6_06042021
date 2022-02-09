@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/fffc96f8f9.js" crossorigin="anonymous"></script>
+        <title>Les petits plats</title>
+
+        <link href="style.css" rel="stylesheet" type="text/css" />
+
+        <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+        
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+
+    </head>
+
+    <body>
+        <header>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/logo.png" class="logo" alt="logo Les petits plats"/>
+                </a>
+            </div>
+        </header>
+        <div class="searchAndFilters">
+            <div class="search">
+                <input type="text" id="searchingField" name="search" placeholder="Rechercher une recette">
+                <i class="fas fa-search"></i>
+            </div>
+
+            <div class="filters">
+                <form class="filter ingredients" tabindex="1" aria-label="recherche par ingrédients">
+                    <label for="sorting-select">  Ingrédients
+                        <!--<select name="sorting" id="sorting-select">  
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        </select>-->
+                    </label>
+                </form>
+
+                <div class="filter appareils" tabindex="1" aria-label="recherche par appareils utilisés"> Appareils </div>
+                <div class="filter ustensiles" tabindex="1" aria-label="recherche par ustensiles utilisés"> Ustensiles </div>
+            </div>
+        </div>
+        <div class="recipesDisplay">
+        <!--<div class="recipe" tabindex="1" aria-label="recette">
+                <div class="recipeImage"> &nbsp; </div>
+                <div class="recipePreparation">
+                    <div class="recipeNameAndTiming">
+                        <span class="recipeName"></span>
+                        <span class="recipeTiming"></span>
+                    </div>
+                    <div class="recipeIngredientsAndInstructions">
+                        <span class="recipeIngredients"></span>
+                        <span class="recipeInstructions"></span>
+                    </div>
+                </div>
+            </div>
+        </div>-->
+
+        <script src="recipes.js"></script>
+        <script src="filters.js"></script>
+    </body>
+
+</html>
